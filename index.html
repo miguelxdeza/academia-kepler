@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Academia Kepler · Asegura tu ingreso a la UNSA</title>
+  <meta name="description" content="Academia preuniversitaria en Arequipa. Ordinario, CEPRUNSA y Ciclo Quintos. Matrículas abiertas: Ciclo Ordinario UNSA II Fase 2027, inicio 2 y 3 de noviembre. Calle Sucre 302, Cercado.">
+  <meta name="theme-color" content="#0B1E40">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Academia Kepler · Asegura tu ingreso a la UNSA">
+  <meta property="og:description" content="Matrículas abiertas · Ciclo Ordinario UNSA II Fase 2027 · Inicio 2 y 3 de noviembre · Clases presenciales en Calle Sucre 302, Arequipa.">
+  <meta property="og:image" content="img/og.jpg">
+  <link rel="icon" href="img/favicon.png">
+  <link rel="apple-touch-icon" href="img/icon-192.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <canvas id="stars" aria-hidden="true"></canvas>
+  <div class="glow glow-1" aria-hidden="true"></div>
+  <div class="glow glow-2" aria-hidden="true"></div>
+
+  <!-- ========== NAV ========== -->
+  <header class="nav" id="nav">
+    <a href="#inicio" class="nav-logo" aria-label="Academia Kepler, inicio"><img src="img/logo.png" alt="Academia Kepler"></a>
+    <nav class="nav-links" id="navLinks">
+      <a href="#programas">Programas</a>
+      <a href="#ciclo">Ciclo 2027</a>
+      <a href="#beneficios">Beneficios</a>
+      <a href="#galeria">Galería</a>
+      <a href="#reto">Reto</a>
+      <a href="#ubicacion">Ubicación</a>
+      <a href="#contacto" class="btn btn-sm btn-primary">Matricúlate</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Abrir menú" aria-expanded="false"><span></span><span></span><span></span></button>
+  </header>
+
+  <main>
+    <!-- ========== HERO ========== -->
+    <section class="hero" id="inicio">
+      <div class="hero-text">
+        <span class="pill pill-live"><span class="dot"></span> Matrículas abiertas · II Fase 2027</span>
+        <h1>Asegura tu<br><span class="grad">ingreso</span> a la<br>UNSA <span class="plane" aria-hidden="true">✈</span></h1>
+        <p class="lead">Academia preuniversitaria en Arequipa. Preparación intensiva, docentes con experiencia y simulacros reales para que despegues hacia tu carrera.</p>
+        <div class="hero-cta">
+          <a class="btn btn-primary btn-lg" data-wa="Hola, quiero información sobre el Ciclo Ordinario UNSA II Fase 2027" href="#contacto">💬 Quiero información</a>
+          <a class="btn btn-ghost btn-lg" href="#programas">Ver programas</a>
+        </div>
+        <div class="hero-meta">
+          <div><strong>2 y 3</strong><span>de noviembre<br>inicio de clases</span></div>
+          <div><strong>3</strong><span>programas<br>de preparación</span></div>
+          <div><strong>100%</strong><span>clases<br>presenciales</span></div>
+        </div>
+      </div>
+      <div class="hero-art">
+        <div class="orbit orbit-1"><span class="planet p1"></span></div>
+        <div class="orbit orbit-2"><span class="planet p2"></span></div>
+        <div class="orbit orbit-3"><span class="planet p3"></span></div>
+        <img class="hero-robot" id="heroRobot" src="img/kepler-hero.png" alt="Kepler, la mascota de la academia, lanzando un avión de papel">
+      </div>
+      <a href="#programas" class="scroll-hint" aria-label="Bajar"><span></span></a>
+    </section>
+
+    <!-- ========== MARQUEE ========== -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <span>🚀 Ordinario</span><span>🛰️ CEPRUNSA</span><span>⭐ Ciclo Quintos</span><span>📝 Simulacros y paneles</span><span>👨‍🏫 Docentes con experiencia</span><span>📚 Material físico y virtual</span><span>🧠 Asesoría psicológica</span><span>📍 Calle Sucre 302</span>
+        <span>🚀 Ordinario</span><span>🛰️ CEPRUNSA</span><span>⭐ Ciclo Quintos</span><span>📝 Simulacros y paneles</span><span>👨‍🏫 Docentes con experiencia</span><span>📚 Material físico y virtual</span><span>🧠 Asesoría psicológica</span><span>📍 Calle Sucre 302</span>
+      </div>
+    </div>
+
+    <!-- ========== PROGRAMAS ========== -->
+    <section class="section" id="programas">
+      <div class="section-head reveal">
+        <span class="eyebrow">Elige tu misión</span>
+        <h2>Tres rutas, <span class="grad">un solo destino</span></h2>
+        <p>Cada meta necesita su propia ruta. Encuentra la tuya y despega con Kepler.</p>
+      </div>
+      <div class="cards">
+        <article class="card tilt reveal">
+          <div class="card-art"><img src="img/prog-ordinario.png" alt="Kepler leyendo sobre una pila de libros" loading="lazy"></div>
+          <span class="tag">🚀 Ciclo vigente</span>
+          <h3>Ordinario</h3>
+          <p>Prepárate para el examen de admisión ordinario de la UNSA con un plan intensivo de lunes a sábado.</p>
+          <ul class="checks"><li>Turno mañana · 7:30 a. m. – 1:00 p. m.</li><li>Seminarios lunes, miércoles y viernes</li><li>Inicio: 2 y 3 de noviembre</li></ul>
+          <a class="card-link" data-wa="Hola, quiero información del ciclo Ordinario" href="#contacto">Quiero este ciclo →</a>
+        </article>
+        <article class="card tilt reveal" style="--d:.1s">
+          <div class="card-art"><img src="img/prog-ceprunsa.png" alt="Kepler junto a una universidad con un diploma" loading="lazy"></div>
+          <span class="tag">🛰️ Pre UNSA</span>
+          <h3>CEPRUNSA</h3>
+          <p>Refuerza tu preparación para el CEPRUNSA y asegura tu vacante con práctica constante y simulacros.</p>
+          <ul class="checks"><li>Enfoque en el examen CEPRUNSA</li><li>Simulacros y paneles</li><li>Consulta horarios por mensaje</li></ul>
+          <a class="card-link" data-wa="Hola, quiero información del programa CEPRUNSA" href="#contacto">Quiero este ciclo →</a>
+        </article>
+        <article class="card tilt reveal" style="--d:.2s">
+          <div class="card-art"><img src="img/prog-quintos.png" alt="Kepler como estudiante con mochila y un cohete" loading="lazy"></div>
+          <span class="tag">⭐ 5.° de secundaria</span>
+          <h3>Ciclo Quintos</h3>
+          <p>Para estudiantes de 5.° de secundaria que quieren ir un paso adelante y llegar listos a la admisión.</p>
+          <ul class="checks"><li>Base sólida desde el colegio</li><li>Hábitos y técnicas de estudio</li><li>Consulta horarios por mensaje</li></ul>
+          <a class="card-link" data-wa="Hola, quiero información del Ciclo Quintos" href="#contacto">Quiero este ciclo →</a>
+        </article>
+      </div>
+    </section>
+
+    <!-- ========== CICLO + COUNTDOWN ========== -->
+    <section class="section" id="ciclo">
+      <div class="ciclo glass reveal">
+        <div class="ciclo-info">
+          <span class="eyebrow">Ciclo vigente</span>
+          <h2>Ordinario UNSA<br><span class="grad">II Fase 2027</span></h2>
+          <div class="ciclo-grid">
+            <div class="ci"><span>🚀</span><div><small>Inicio</small><strong>2 y 3 de noviembre</strong></div></div>
+            <div class="ci"><span>⏳</span><div><small>Turno mañana</small><strong>Lunes a sábado · 7:30 – 1:00</strong></div></div>
+            <div class="ci"><span>➕</span><div><small>Seminario</small><strong>Lun, mié y vie · 1:30 – 3:00 p. m.</strong></div></div>
+            <div class="ci"><span>🏢</span><div><small>Modalidad</small><strong>Presencial · Calle Sucre 302</strong></div></div>
+          </div>
+        </div>
+        <div class="countdown" id="countdown" aria-live="polite">
+          <p class="cd-title">Despegamos en</p>
+          <div class="cd-grid">
+            <div><strong id="cdD">00</strong><span>días</span></div>
+            <div><strong id="cdH">00</strong><span>horas</span></div>
+            <div><strong id="cdM">00</strong><span>min</span></div>
+            <div><strong id="cdS">00</strong><span>seg</span></div>
+          </div>
+          <a class="btn btn-primary btn-block" data-wa="Hola, quiero separar mi vacante para el Ciclo Ordinario II Fase 2027" href="#contacto">Separa tu vacante</a>
+          <p class="cd-note">Vacantes limitadas · Escríbenos para más información</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== BENEFICIOS ========== -->
+    <section class="section" id="beneficios">
+      <div class="section-head reveal">
+        <span class="eyebrow">Por qué Kepler</span>
+        <h2>Todo lo que necesitas<br>para <span class="grad">ingresar</span></h2>
+      </div>
+      <div class="benefits">
+        <div class="benefit glass reveal"><img src="img/ben-simulacros.png" alt="Kepler resolviendo un examen" loading="lazy"><h3>Simulacros y paneles</h3><p>Practica en condiciones reales de examen y mide tu avance con cada simulacro.</p></div>
+        <div class="benefit glass reveal" style="--d:.08s"><img src="img/ben-docentes.png" alt="Kepler enseñando en la pizarra" loading="lazy"><h3>Docentes con experiencia</h3><p>Una plana docente que conoce el examen de la UNSA y te acompaña en cada curso.</p></div>
+        <div class="benefit glass reveal" style="--d:.16s"><img src="img/ben-material.png" alt="Kepler con libros y una tablet" loading="lazy"><h3>Material físico y virtual</h3><p>Material para complementar tu preparación en clase y desde casa.</p></div>
+        <div class="benefit glass reveal" style="--d:.24s"><img src="img/ben-psico.png" alt="Kepler meditando tranquilo" loading="lazy"><h3>Asesoría psicológica</h3><p>Porque ingresar también es manejar la presión: te ayudamos a llegar enfocado y tranquilo.</p></div>
+      </div>
+    </section>
+
+    <!-- ========== GALERÍA ========== -->
+    <section class="section" id="galeria">
+      <div class="section-head reveal">
+        <span class="eyebrow">Así se vive Kepler</span>
+        <h2>Nuestra <span class="grad">tripulación</span></h2>
+        <p>Estudiantes, docentes y aulas que despegan juntos cada ciclo.</p>
+      </div>
+      <div class="gallery reveal">
+        <figure class="wide tall"><img src="img/galeria/alumnos.jpg" alt="Estudiantes de Academia Kepler con polos de la academia" loading="lazy"><figcaption>Nuestros estudiantes 💚</figcaption></figure>
+        <figure class="tall"><img src="img/galeria/nueva-era.jpg" alt="Post Nueva era Kepler" loading="lazy"><figcaption>Nueva era Kepler 🚀</figcaption></figure>
+        <figure><img src="img/galeria/aula.jpg" alt="Aula de Academia Kepler" loading="lazy"><figcaption>Nuestras aulas</figcaption></figure>
+        <figure><img src="img/galeria/docente.jpg" alt="Docente de Academia Kepler dando una charla" loading="lazy"><figcaption>Docentes con experiencia</figcaption></figure>
+        <figure class="tall"><img src="img/galeria/he-vuelto.jpg" alt="Kepler, la mascota, regresa" loading="lazy"><figcaption>¡Kepler ha vuelto! 🤖</figcaption></figure>
+        <figure><img src="img/galeria/clase.jpg" alt="Reunión en Academia Kepler" loading="lazy"><figcaption>Comunidad Kepler</figcaption></figure>
+        <figure class="wide"><img src="img/galeria/portada.jpg" alt="Matrículas abiertas Ciclo Ordinario UNSA II Fase 2027" loading="lazy"><figcaption>Matrículas abiertas · II Fase 2027</figcaption></figure>
+        <figure class="wide"><img src="img/galeria/espacios.jpg" alt="Espacios de Academia Kepler" loading="lazy"><figcaption>Espacios para tu éxito</figcaption></figure>
+        <figure><img src="img/galeria/reto.jpg" alt="Reto Kepler número 1" loading="lazy"><figcaption>Reto Kepler #1 🧠</figcaption></figure>
+      </div>
+    </section>
+    <div class="lightbox" id="lightbox" role="dialog" aria-label="Foto ampliada"><img alt=""></div>
+
+    <!-- ========== RETO ========== -->
+    <section class="section" id="reto">
+      <div class="reto glass reveal">
+        <img class="reto-robot" src="img/kepler.png" alt="" aria-hidden="true" loading="lazy">
+        <div class="reto-body">
+          <span class="eyebrow">Reto Kepler #1</span>
+          <h2>¿Te animas? 🧠</h2>
+          <p class="reto-q">Si 3 gatos cazan 3 ratones en 3 minutos, ¿cuántos gatos se necesitan para cazar 100 ratones en 100 minutos?</p>
+          <div class="reto-opts" id="retoOpts">
+            <button data-ok="1">A) 3</button>
+            <button>B) 33</button>
+            <button>C) 100</button>
+          </div>
+          <p class="reto-msg" id="retoMsg" aria-live="polite"></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== UBICACIÓN ========== -->
+    <section class="section" id="ubicacion">
+      <div class="section-head reveal">
+        <span class="eyebrow">Visítanos</span>
+        <h2>En el corazón de <span class="grad">Arequipa</span></h2>
+        <p>Clases presenciales en el Cercado, a pocas cuadras de la Plaza de Armas.</p>
+      </div>
+      <div class="map-wrap glass reveal">
+        <iframe title="Mapa: Calle Sucre 302, Cercado de Arequipa" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+          src="https://maps.google.com/maps?q=Calle%20Sucre%20302%2C%20Cercado%20de%20Arequipa%2C%20Per%C3%BA&z=17&output=embed"></iframe>
+        <div class="map-card">
+          <img src="img/ubicacion.png" alt="Kepler junto al Misti y un arco de sillar" loading="lazy">
+          <h3>📍 Calle Sucre 302</h3>
+          <p>Cercado de Arequipa 04001</p>
+          <a class="btn btn-primary btn-sm" target="_blank" rel="noopener" href="https://www.google.com/maps/dir/?api=1&destination=Calle+Sucre+302,+Cercado+de+Arequipa,+Peru">Cómo llegar</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== CONTACTO ========== -->
+    <section class="section" id="contacto">
+      <div class="contact glass reveal">
+        <div class="contact-text">
+          <img class="contact-art" src="img/contacto.png" alt="Kepler saludando con un celular" loading="lazy">
+          <span class="eyebrow">Contáctanos</span>
+          <h2>¿Listo para <span class="grad">despegar</span>? 🚀</h2>
+          <p>Escríbenos o llámanos y te damos toda la información sobre horarios, matrícula y vacantes.</p>
+          <div class="contact-btns">
+            <a class="btn btn-primary btn-lg" data-wa="Hola, quiero información sobre Academia Kepler" href="#">💬 Escríbenos por WhatsApp</a>
+          </div>
+        </div>
+        <ul class="contact-list">
+          <li><span>📞</span><div><small>Teléfonos</small><a href="tel:+51958707899">958 707 899</a> · <a href="tel:+51937002506">937 002 506</a> · <a href="tel:+51923888421">923 888 421</a></div></li>
+          <li><span>✉️</span><div><small>Correo</small><a href="mailto:academia.kepler2020@gmail.com">academia.kepler2020@gmail.com</a></div></li>
+          <li><span>📍</span><div><small>Dirección</small>Calle Sucre 302, Cercado de Arequipa</div></li>
+          <li><span>🌐</span><div><small>Síguenos</small><a target="_blank" rel="noopener" href="https://www.facebook.com/academiakepler2022">Facebook</a> · <a target="_blank" rel="noopener" href="https://www.instagram.com/academia.kepler.arequipa/">Instagram</a></div></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <img src="img/logo.png" alt="Academia Kepler" loading="lazy">
+    <p>Kepler, asegura tu ingreso. 💚💙</p>
+    <p class="small">© <span id="year">2026</span> Academia Kepler · Arequipa, Perú</p>
+  </footer>
+
+  <a class="wa-float" data-wa="Hola, quiero información sobre Academia Kepler" href="#" aria-label="Escríbenos por WhatsApp">
+    <svg viewBox="0 0 32 32" aria-hidden="true"><path fill="currentColor" d="M16 3C8.8 3 3 8.7 3 15.8c0 2.5.7 4.9 2 7L3 29l6.4-2c2 1.1 4.3 1.7 6.6 1.7 7.2 0 13-5.7 13-12.8S23.2 3 16 3zm0 23.4c-2.1 0-4.1-.6-5.9-1.7l-.4-.2-3.8 1.2 1.2-3.7-.3-.4c-1.2-1.8-1.8-3.8-1.8-5.9C5 10 9.9 5.2 16 5.2S27 10 27 15.8s-4.9 10.6-11 10.6zm6-7.9c-.3-.2-2-1-2.3-1.1-.3-.1-.5-.2-.8.2-.2.3-.9 1.1-1.1 1.3-.2.2-.4.2-.7.1-.3-.2-1.4-.5-2.7-1.7-1-.9-1.7-2-1.9-2.3-.2-.3 0-.5.1-.7l.5-.6c.2-.2.2-.4.3-.6.1-.2 0-.4 0-.6l-1-2.5c-.3-.7-.6-.6-.8-.6h-.7c-.2 0-.6.1-.9.4-.3.3-1.2 1.1-1.2 2.8s1.2 3.2 1.4 3.5c.2.2 2.4 3.6 5.8 5 .8.3 1.4.5 1.9.7.8.3 1.5.2 2.1.1.6-.1 2-.8 2.2-1.6.3-.8.3-1.5.2-1.6-.1-.2-.3-.3-.6-.4z"/></svg>
+  </a>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
