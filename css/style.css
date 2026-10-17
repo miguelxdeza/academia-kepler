@@ -26,6 +26,7 @@ body {
   line-height: 1.6;
   overflow-x: hidden;
 }
+html, body { overflow-x: clip; } /* evita desplazamiento lateral en celulares */
 img { max-width: 100%; display: block; }
 a { color: inherit; text-decoration: none; }
 button { font: inherit; cursor: pointer; }
